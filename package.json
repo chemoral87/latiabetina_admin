@@ -1,9 +1,11 @@
+
 {
-  "name": "nuxt-app",
+  "name": "latiabetina-app",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "nuxt build",
+    "build": "npm run clean && nuxt build",
+    "clean": "rm -rf .nuxt dist",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
